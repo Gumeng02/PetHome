@@ -1,5 +1,9 @@
 server:
+<<<<<<< HEAD
   port: 80
+=======
+port: 8080
+>>>>>>> a404dd12f68581c06ccc88dc08aa276f47f07f63
 
 spring:
   profiles:
@@ -18,6 +22,7 @@ spring:
     username: root
     password: 123456789
     driver-class-name: com.mysql.cj.jdbc.Driver
+<<<<<<< HEAD
   redis:
      host: localhost
      port: 6379
@@ -29,11 +34,17 @@ spring:
          max-wait: -1
          max-idle: 10
          min-idle: 8
+=======
+>>>>>>> a404dd12f68581c06ccc88dc08aa276f47f07f63
 # mybatis配置
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   #用于控制台打印sql语句
+<<<<<<< HEAD
 #  mapper-locations: classpath:org/lqh/home/mapper/xml/*.xml
+=======
+    mapper-locations: classpath:org/pethome/mapper/*.class
+>>>>>>> a404dd12f68581c06ccc88dc08aa276f47f07f63
 
 
 
@@ -53,4 +64,7 @@ spring:
     time-zone: GMT+8
 server:
   port: 8083
+<<<<<<< HEAD
 
+=======
+>>>>>>> a404dd12f68581c06ccc88dc08aa276f47f07f63

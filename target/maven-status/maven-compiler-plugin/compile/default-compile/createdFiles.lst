@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 org\pet\home\net\NetResult.class
 org\pet\home\net\NetCode.class
 org\pet\home\controller\EmployeeController.class
@@ -28,3 +29,19 @@ org\pet\home\controller\DepartmentController.class
 org\pet\home\controller\ShopController.class
 org\pet\home\service\impl\DepartmentService.class
 org\pet\home\MyApplication.class
+=======
+org\pethome\net\NetCode.class
+org\pethome\controller\DepartmentController.class
+org\pethome\MyApplication.class
+org\pethome\net\NetResult.class
+org\pethome\net\param\DepartmentParam.class
+org\pethome\controller\HelloController.class
+org\pethome\common\DepartmentQuery.class
+org\pethome\service\IDepartmentService.class
+org\pethome\entity\Department.class
+org\pethome\mapper\DepartmentMapper.class
+org\pethome\entity\Employee.class
+org\pethome\service\impl\DepartmentService.class
+org\pethome\SwaggerConfig.class
+org\pethome\utils\ResultGenerator.class
+>>>>>>> a404dd12f68581c06ccc88dc08aa276f47f07f63

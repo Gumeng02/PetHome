@@ -1,5 +1,6 @@
 package org.pet.home.utils;
 
+<<<<<<< HEAD
 import org.pet.home.net.NetResult;
 import org.springframework.util.StringUtils;
 
@@ -8,6 +9,15 @@ import org.springframework.util.StringUtils;
  * @author: 顾梦
  * @date: 2023/10/26
  **/
+=======
+import org.springframework.util.StringUtils;
+
+/**
+ * @description:TODO 类描述
+ * @author: 顾梦
+ * @date: 2023/11/1
+ */
+>>>>>>> a404dd12f68581c06ccc88dc08aa276f47f07f63
 public class ResultGenerator {
     private static final String DEFAULT_SUCCESS_MESSAGE = "SUCCESS";
     private static final String DEFAULT_FAIL_MESSAGE = "FAIL";

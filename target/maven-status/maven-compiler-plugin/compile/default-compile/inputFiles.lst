@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\gitXm\Pet\pet_project-main\src\main\java\org\pet\home\service\impl\RedisService.java
 D:\gitXm\Pet\pet_project-main\src\main\java\org\pet\home\utils\MD5Util.java
 D:\gitXm\Pet\pet_project-main\src\main\java\org\pet\home\service\impl\DepartmentService.java
@@ -28,3 +29,19 @@ D:\gitXm\Pet\pet_project-main\src\main\java\org\pet\home\controller\Hello.java
 D:\gitXm\Pet\pet_project-main\src\main\java\org\pet\home\net\NetCode.java
 D:\gitXm\Pet\pet_project-main\src\main\java\org\pet\home\controller\ShopController.java
 D:\gitXm\Pet\pet_project-main\src\main\java\org\pet\home\service\IShopService.java
+=======
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\controller\HelloController.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\entity\Employee.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\net\NetResult.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\utils\ResultGenerator.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\service\impl\DepartmentService.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\MyApplication.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\controller\DepartmentController.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\entity\Department.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\mapper\DepartmentMapper.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\SwaggerConfig.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\common\DepartmentQuery.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\net\NetCode.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\net\param\DepartmentParam.java
+E:\BaiduNetdiskDownload\PetHome\src\main\java\org\pethome\service\IDepartmentService.java
+>>>>>>> a404dd12f68581c06ccc88dc08aa276f47f07f63

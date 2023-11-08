@@ -2,8 +2,17 @@ package org.pet.home.utils;
 
 import java.security.MessageDigest;
 
+<<<<<<< HEAD
 public class MD5Util {
 
+=======
+/**
+ * @description:TODO 类描述
+ * @author: 顾梦
+ * @date: 2023/11/1
+ */
+public class MD5Util {
+>>>>>>> a404dd12f68581c06ccc88dc08aa276f47f07f63
     private static String byteArrayToHexString(byte b[]) {
         StringBuffer resultSb = new StringBuffer();
         for (int i = 0; i < b.length; i++)

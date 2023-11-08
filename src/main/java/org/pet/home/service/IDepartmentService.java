@@ -1,5 +1,10 @@
 package org.pet.home.service;
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a404dd12f68581c06ccc88dc08aa276f47f07f63
 import org.pet.home.common.DepartmentQuery;
 import org.pet.home.entity.Department;
 
@@ -20,6 +25,7 @@ public interface IDepartmentService {
     List<Department> findDepartmentsByPage(DepartmentQuery query);
     List<Department> getDepartmentTreeData();
 }
+<<<<<<< HEAD
 
 
 
@@ -29,3 +35,5 @@ public interface IDepartmentService {
 
 
 
+=======
+>>>>>>> a404dd12f68581c06ccc88dc08aa276f47f07f63

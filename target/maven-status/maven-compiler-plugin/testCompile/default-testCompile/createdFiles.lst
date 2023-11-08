@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 testredis\RedisTest.class
+=======
+org\pethome\mapper\DepartmentMapperTest.class
+>>>>>>> a404dd12f68581c06ccc88dc08aa276f47f07f63
