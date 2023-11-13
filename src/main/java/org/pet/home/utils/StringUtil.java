@@ -1,17 +1,21 @@
 package org.pet.home.utils;
 
 /**
- * @description:TODO 类描述
+ * @description: TODO 类描述
  * @author: 顾梦
- * @date: 2023/11/1
- */
+ * @date: 2023/10/31
+ **/
 public class StringUtil {
     /**
-     * 判断字符串 s 是否为空 或者为null
+     * 判断s是否为null
      * @param s
      * @return
      */
     public static boolean isEmpty(String s){
-        return s == null || s.isEmpty() || s.equals("null");
+        return s==null||s.isEmpty();
+    }
+
+    public static boolean isNullOrNullStr(String s){
+        return s==null||s.equals("null");
     }
 }

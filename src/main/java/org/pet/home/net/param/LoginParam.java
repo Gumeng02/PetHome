@@ -12,4 +12,6 @@ public class LoginParam {
     String phone;
     String password;
     String username;
+    //type 1管理员 type 0用户
+    private int type;
 }

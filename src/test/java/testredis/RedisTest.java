@@ -1,14 +1,11 @@
 package testredis;
 
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.pet.home.MyApplication;
+import org.pet.home.mapper.UsersMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  * @description:TODO 类描述
@@ -19,12 +16,7 @@ import java.util.concurrent.TimeUnit;
 @SpringBootTest(classes = {MyApplication.class},webEnvironment = SpringBootTest.WebEnvironment.NONE)
 public class RedisTest {
     @Autowired
-    private StringRedisTemplate redisTemplate;
+    private UsersMapper usersMapper;
 
-    @Test
-    public void setRedis(){
-        redisTemplate.opsForValue().set("first","siwei");
-        redisTemplate.opsForValue().set("second","siweiWu",30, TimeUnit.SECONDS);
-        System.out.println("存入缓存成功");
-    }
+
 }
